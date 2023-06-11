@@ -5,7 +5,7 @@ this library tryies to solve the problem of gene annotation or after GWAS analis
 the function outputs a folder that contain tables significant genes in a window of nucleotides that recived from the user and manhetten plot with the SNP annotation
 ### how the folder looks like:
 ![image](https://github.com/talamar49/Gene_annotation/assets/114323965/5dd1dcd8-be51-4288-b2ef-2514c4800ada)
-![image](https://github.com/talamar49/Gene_annotation/assets/114323965/575542db-d928-4fa5-ae37-2a6c009f97fe)
+![image](https://github.com/talamar49/Gene_annotation/assets/114323965/07f6820b-8576-4973-b543-98845677a123)
 
 ### how the output table looks like:
 the snps tables:
