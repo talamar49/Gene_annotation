@@ -102,5 +102,5 @@ Gwas_beta <- "GAPIT.Association.GWAS_Results.BLINK.betaglucan.csv"
 gene_annotation("BLINK_beta", gff_FileName , snp_beta , Gwas_beta , 1000000)
 ```
 
-## what the algorithem:
+## whats the algorithem:
 basicly the function takes the snp position from the significant snp file and searches for genes in the txt(gff converted) file in the range specified (in the example above 1M window) and saves the dataframe into a folder.
