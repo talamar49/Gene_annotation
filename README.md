@@ -44,6 +44,7 @@ the third file is the significant snp csv and it looks like this:
 ![image](https://github.com/talamar49/Gene_annotation/assets/114323965/7dbda646-a94a-4816-942a-7b216bcc54bb)
 
 ## the function itself
+copy this to your code:
 ```R
 gene_annotation <- function(Model_name,gff_FileName, snp_FileName, Gwas.output_FileName,range){
     gff = read.table(gff_FileName,header = TRUE , sep="\t")
@@ -94,6 +95,10 @@ gene_annotation(Model_name ,gff_FileName , snp_FileName , Gwas.output_FileName ,
 ```
 example:
 ```R
+gff_FileName <- "Barley_Morex_gene_annotation.descriptions.txt"
+snp_beta <-"GAPIT.Association.sinificant_snps.BLINK.betaglucan.csv"
+Gwas_beta <- "GAPIT.Association.GWAS_Results.BLINK.betaglucan.csv"
+
 gene_annotation("BLINK_beta", gff_FileName , snp_beta , Gwas_beta , 1000000)
 ```
 
