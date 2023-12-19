@@ -1,5 +1,5 @@
 # Gene_annotation
-this library tryies to solve the problem of gene annotation or after GWAS analisys wich there aren't any good library who does that.
+this library tryies to solve the problem of gene annotation or after GWAS analisys because there aren't any good library who does that.
 
 ## what the function do
 the function outputs a folder that contain tables significant genes in a window of nucleotides that recived from the user and manhetten plot with the SNP annotation
